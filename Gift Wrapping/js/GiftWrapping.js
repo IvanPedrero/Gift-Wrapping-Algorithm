@@ -29,10 +29,10 @@ function setup() {
 
 function draw() {
 
-  //Check if the mouse is not over the button. Fast implemenation
-  if(mouseX > 19 - 150 &&
+  //Check if the mouse is not over the button. Fast implemenation...
+  if(mouseX > 19 &&
      mouseX < 19 + 150 &&
-     mouseY > 19 - 40 &&
+     mouseY > 19 &&
      mouseY < 19 + 40)
   {
     ignoreClick = true;
